@@ -36,6 +36,22 @@
 }
 
 
+.icon-flex, .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid blue;
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+}
+.icon-wrapper i {
+    color: blue;
+}
 
 
 /*Colored backgrounds for each one*/
